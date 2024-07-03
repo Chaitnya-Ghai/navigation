@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Hello" />
+        android:text="@string/hello" />
 
     <TextView
         android:id="@+id/inName"
@@ -32,14 +32,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
       android:layout_marginLeft="12dp"
-        android:text="${name}" />
+        android:text="@string/your_name" />
 </LinearLayout>
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
     android:gravity="center"
-    android:text="I Can Contact you at"
+    android:text="@string/i_can_contact_you_at"
     />
 
     <TextView
@@ -47,20 +47,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="${number}" />
+        android:text="@string/your_number" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
       android:layout_weight="1"
         android:gravity="center"
-        android:text="You were born on"/>
+        android:text="@string/you_were_born_on"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/Dob"
         android:layout_weight="1"
-        android:text="${dateOfBirth}"/>
+        android:text="@string/your_d_o_b"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="you are studying: "
+            android:text="@string/you_are_studying"
             />
 <!--        <TextView-->
 <!--            android:layout_width="match_parent"-->
@@ -84,7 +84,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
+        android:text="@string/back"
         android:id="@+id/Back"/>
 
 

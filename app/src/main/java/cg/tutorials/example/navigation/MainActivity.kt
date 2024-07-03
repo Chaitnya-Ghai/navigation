@@ -62,16 +62,14 @@ class MainActivity : AppCompatActivity() {
             else if (dateOfBirth?.text?.toString()?.trim().isNullOrEmpty()) {
                 dateOfBirth?.error = "Enter your Date of Birth"
             }
-else if (fieldOfStudy?.visibility == View.VISIBLE){
-    if (fieldOfStudy?.text?.toString()?.trim().isNullOrEmpty()){
+else if (yes?.isChecked == true && fieldOfStudy?.text?.toString()?.trim().isNullOrEmpty()){
         fieldOfStudy?.error ="fill this"
-    }
             }
 
             else {
                 Toast.makeText(this, "thanks", Toast.LENGTH_SHORT).show()
 
-                var intent = Intent(this, SecondScreen()::class.java)
+                val intent = Intent(this, SecondScreen()::class.java)
 
                 intent.putExtra("About_Me", about?.text?.toString()?.trim())
                 intent.putExtra("INPUT_NAME", name?.text?.toString()?.trim())

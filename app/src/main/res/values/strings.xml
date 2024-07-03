@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">navigation</string>
+    <string name="your_name">your name</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="your_number">your number</string>
+    <string name="enter_your_date_of_birth">Enter your Date Of Birth</string>
+    <string name="your_d_o_b">Your D.O.B</string>
+    <string name="are_you_studying">Are You Studying</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="enter_your_field_of_study">Enter your field of study</string>
+    <string name="Move">Move</string>
+    <string name="about_you">About You</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="hello">Hello</string>
+    <string name="i_can_contact_you_at">I Can Contact you at</string>
+    <string name="you_were_born_on">You were born on</string>
+    <string name="you_are_studying">you are studying:</string>
+    <string name="back">Back</string>
 </resources>
